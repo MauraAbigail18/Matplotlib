@@ -1,0 +1,13 @@
+#CATATAN
+
+#Fungsi load_iris() ini akan mengembalikan suatu data yang memiliki struktur data dictionary.
+#Dictionary sendiri merupakan struktur data dalam file yang berisi pasangan antara keys and values.
+#indeks ke-1 akan berkolerasi dengan 'sepal length (cm)', indeks ke-2 akan berkolerasi dengan 'sepal width (cm)', indeks ke-3 akan berkolerasi dengan
+'petal length (cm)', dan indeks ke-4 akan berkolerasi dengan 'petal width (cm)'
+#T digunakan untuk proses transpose, yaitu proses untuk membalik kolom dan baris.
+#Target yang nilainya 0 akan berkolerasi dengan 'setosa', target yang nilainya 1 akan berkolerasi dengan 'versicolor', dan 
+target yang nilainya 2 akan berkolerasi dengan 'virginica' yang merepresentasikan ketiga spesies dari bunga iris.
+
+#Tipe style dalam Matplotlib ada banyak, namun yang digunakan pada latihan kali ini adalah ggplot, seaborn, seaborn-paper, dan grayscale.
+#Style pada Matplotlib ini tentunya akan memberikan fleksibilitas bagi kita dalam mengatur tampilan dari graf ataupun plotting yang kita hasilkan dengan
+menggunakan Matplotlib.

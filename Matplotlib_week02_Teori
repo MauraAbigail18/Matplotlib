@@ -1,0 +1,38 @@
+#CATATAN
+
+#Efek dari pemanggilan plt.() adalah tidak ada teks tambahan yang tidak kita
+butuhkan, jadi hasil akhirnya langsung berupa plotting yang memang
+kita inginkan.
+
+#Pemanggilan fungsi plot() dapat dilakukan dengan menyertakan hanya sebuah 
+deret bilangan (list/array) ataupun dua buah deret bilangan (list/array).
+#Bila pemanggilan hanya menyertakan sebuah deret bilangan, maka nilai pada
+deret bilangan tersebut akan dijadikan data point untuk nilai pada sumbu y;
+sedangkan nilai pada sumbu x akan secara otomatis dibuatkan sebuah deret
+bilangan terurut dengan nilai dimulai dari nol.
+
+#Selain menyertakan dua buah deret bilangan sebagai parameter untuk sumbu x
+dan y, terdapat parameter ketiga yang bisa kita sertakan untuk mengatur
+warna dan jenis plotting.
+#Pengaturan parameter ketiga ini sepenuhnya mengadopsi gaya formatting pada
+MATLAB.
+#Nilai default untuk parameter ketiga ini adalah '-b'. b berarti blue, - berarti
+garis.
+#Pemanggilan fungsi axis() menyertakan sebuah list [xmin, xmax, ymin, ymax].
+
+#Perbedaan linkspace dan arange terletak pada parameter ketiganya, untuk linkspace
+parameter ketiganya untuk mengatur jumlah data point yang berada di nilai minumum
+dan maksimum. Sedangkan pada arange, parameter ke-3nya itu mengatur intervalnya.
+
+#Kita juga bisa melakukan multi plot dalam satu pemanggilan fungsi plot ().
+
+#Matplotlib juga memungkinkan kita untuk melakukan plotting sekumpulan nilai
+yang tersimpan dalam struktur data yang disertai keywords argument (kwargs),
+seperti pada dictionary dan Pandas DataFrame.
+
+#Matplotlib juga mendukung plotting untuk data dengan tipe kategori atau biasa
+dikenal dengan istilah categorical data atau categorical variables.
+
+
+
+

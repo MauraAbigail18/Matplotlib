@@ -1,0 +1,11 @@
+
+#Parameter loc akan mendefinisikan titik tengah atau nilai mean dari distribusi normal yang dibentuk.
+#Parameter scale akan mengatur sebaran data atau dengan kata lain, parameter scale ini akan setara dengan nilai standard deviation.
+#Parameter size digunakan untuk mengatur jumlah data point yang ingin kita hasilkan.
+#Garis merah pada visualisasi data box plot menandakan median yang dimiliki.
+#Garis yang membentuk box/ kotaknya merepresentasikan kuartal pertama dan kuartal ketiga.
+#Garis horizontal atas-bawah akan merepresentasikan nilai tertinggi (garis horizontal atas) dan nilai terendah (garis horizontal bawah) yang masih 
+berada dalam ambang batas 1,5 interquartile range.
+#Lingkaran yang terdapat pada hasil output digunakan untuk merepresentasikan outlier pada data kita dan untuk kasus boxplot yang dinamakan sebagai outlier 
+adalah data data yang berada diluar jangkauan satu setengah dari nilai IQR nya.
+

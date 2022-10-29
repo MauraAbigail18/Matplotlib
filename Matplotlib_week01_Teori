@@ -1,0 +1,46 @@
+#matplotib adalah salah satu modul dalam bahasa Pemprograman Pyhton yang dapat digunakan untuk memvisualisasikan data dalam bentuk graphs.
+#Dengan matplotib ini, graphs akan digambarkan pada suatu figure yang didalamnya dapat terdiri dari satu atau lebih axes. Figure dan axes merupakan 
+2 object penting dalam matplotib.
+#Figure dan axes juga merupakan 2 object dasar yang kita butuhkan untuk melakukan visualisasi data yang menggunakan matplotib.
+
+
+
+%matplotib inline #merupakan magic comment yang berfungsi untuk memastikan agar setiap output yang dihasilkan 
+                   oleh matplotib akan ditampilkan di dalam tampilan notebook yang sama.
+                   
+
+
+#Kita dapat menggunakan method plot() pada pyplot untuk melakukan plotting sederhana.
+
+
+
+#FIGURE AND AXES
+#Figure: media dasar atau kontainer dasar untuk melakukan visualisasi data dengan menggunakan matplotlib (bisa dikatakan figure merupakan kontainer besarnya).
+#Axes: area gambarnya atau area untuk melakukan plotting yang berada di dalam suatu figure.
+#Axis: mengindikasikan sumbu (ada x axis dan y axis). Jumlah axis bisa 2 atau 3 tergantung pada visualisasi data yang nanti kita bangun.
+#Untuk visualisasi data 2 dimensi, jumlah axisnya hanya 2 (x axis dan y axis).
+#Untuk Plotting 3 dimensi, jumlah axisnya adalah 3 (x axis, y axis, dan z axis).
+
+
+
+#Beberapa cara untuk membuat figure dan axes:
+fig = plt.figure() #figure tanpa axes -> method ini tidak bisa digunakan untuk melakukan visualisasi data. Karena ketika kita melakukan plotting data, 
+                                         kita melakukannya bukan langsung pada object figure tapi pada object axes.
+fig,ax = plt.subplots() #sebuah figure dengan sebuah axes -> method ini membuat kita tidak dapat melihat figure, tapi yang bisa kita lihat secara visual
+                                                             adalah axesnya.
+fig,ax = plt.subplots(2,3) #sebuah figure dengan 2x3 grid axes
+
+
+
+#Terdapat 2 cara dalam menggunakan matplotib: OO Style (Object Oriented Style) dan pyplot Style.
+#OO Style: Secara ekspilisit membuat figure beserta axes dan memanggil methods dari keduanya.
+#Dalam 1 object axes yang sama atau dalam 1 area yang sama, kita dapat menghasilkan lebih dari 1 plotting.
+
+
+
+#Pyplot STYLE FOR PLOTTING
+#mengandalkan pyplot untuk membuat dan mengelola figures dan axes, serta menggunakan fungsi pada pyplot untuk melakukan plotting. Jadi, bisa dikatakan juga
+kita tidak perlu membentuk object figure dan axes secara eksplisit.
+
+
+

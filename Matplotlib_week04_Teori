@@ -1,0 +1,21 @@
+#CATATAN
+
+#Pemanggilan plt.bar() ini setidaknya membutuhkan 2 parameter, biasanya parameter pertama ini akan bertipe data kategorikal dandigunakan untuk mengatur 
+kategori apa saja yang akan kita tampilkan pada bar plot, lalu parameter kedua biasanya berisi sederet nilai yang akan berasosiasi dengan setiap item yang
+berada pada parameter yang pertama.
+#Ada perbedaan penting antara historgram dan bar plot. Pada histogram, digunakan untuk melakukan plotting data yang bertipe numerik dan sifat-nya continuous. 
+Sedangkan bar plot umumnya digunakan untuk plotting data yang sifatnya categorical atau diskret.
+#Untuk axis = 'both', berarti bahwa garis akan dihasilkan baik untuk garis yang sejajar dengan sumbu-x maupun garis yang sejajar dengan sumbu y.
+#Stacked Bar plot umumnya digunakan untuk plotting pada 2 dataset yang berbeda yang memiliki kesamaan dalam hal pembagian kategori dan plotting ke-2 dataset
+tersebut akan ditumpuk.
+#Plotting Grouped Bar plot pada 2 dataset akan dikelompokkan berdasarkan kategorinya dan diplotting tepat berdampingan satu dengan yang lainnya.
+
+
+#Pie Plot digunakan untuk melakukan plotting suatu kategori yang berasosiasi dengan nilai tertentu.
+#Di dalam Exploded Pie Plot terdapat beberapa bagian yang sengaja ditarik keluar, sehingga kesannya seperti meledak (exploded).
+#Semakin jauh nilai explode_var nya, maka akan makin jauh pergeseran yang akan dilakukan terhadap Pie Plot tersebut.
+
+
+#Table Plot digunakan untuk menampilkan data dalam bentuk tabular, ditampilkan dengan memanfaatkan figure dan axes.
+
+

@@ -1,0 +1,42 @@
+#CATATAN
+
+#Pemanggilan fungsi np.arange() akan ment=yertakan 3 buah parameter. Fungsi parameter ke-1 adalah untuk mengindikasikan nilai awalnya, parameter kedua
+mengindikasikan nilai akhirnya, dan parameter ke-3 berfungsi untuk menentukan interval nilainya. 
+#Starting point pada np.arrange() ini mengindikasikan nilai awal yang sifatnya inklusif atau disertakan dalam deret bilangan. Sedangkan nilai maksimumnya, 
+bersifat ekslusif yang artinya hanya digunakan sebagai pembatas, tetapi tidak disertakan dalam deret bilangan. 
+#Fungsi np.sin() pada dasarnya berfungsi untuk menampung nilai hasil operasi sin atau sinus dari dataset yang ditampung oleh suatu variabel yang dideklarasikan.
+#Pemanggilan fungsi plt.subplots() akan menghasilkan 2 buah nilai yang perlu kita tampung dalam 2 buah variabel. Variabel pertama akan menampung
+figure dan pemanggilan kedua akan menampung axes nya, yang mana merupakan karakteristik dari Object Oriented Style.
+#Kita dapat melakukan pengaturan pada 3 label dengan menggunakan Fungsi set() .
+#Jika kita ingin memunculkan grid pata plotting kita, kita dapat memanggil fungsi grid() . 
+
+#Pemanggilan fungsi np.linspace() akan ment=yertakan 3 buah parameter. Fungsi parameter ke-1 adalah untuk mengatur nilai minimum, parameter kedua
+digunakan untuk mengatur nilai maksimum dan nilai parameter ke-1 dan ke-2 bersifat inklusif. Parameter ke-3 mengindikasikan jumlah data point
+yang akan di generate. 
+#Kedua variabel dalam fungsi np.cos() akan digunakan untuk menampung nilai hasil operasi cos atau cosinus dari dataset 
+yang ditampung oleh suatu variabel yang dideklarasikan.
+#Multiple subplots: di dalam 1 figure terdapat 2 axes.
+#Kita dapat membuat multiple subplots dengan memanggil fungsi plt.subplots(). Namun kali ini, pemanggilan plt.subplots() akan disertai dengan dua buah 
+parameter. Maksudnya adalah kita akan membuat subplots atau multiple subplots yang parameter ke-1nya merepresentasikan jumlah baris dan parameter kedua ini
+merepresentasikan jumlah kolom. 
+
+#Menampilkan mutiple subplots di dalam pyplot Style, dapat menggunakan fungsi plt.subplot() . 
+
+
+
+
+#Fungsi np.random.randn() ini akan membangun sampel data berupa random number yang akan membentuk normal distribution. 
+Parameter dari np.random.randn() ini merepresentasikan jumlah data point yang akan dihasilkan oleh fungsi np.random.randn() ini.
+#plt.hist() setidaknya mengisyaratkan 2 parameter yang harus disertakan. Parameter pertama adalah dataset atau sampel datanya dan parameter kedua
+adalah binsnya.
+#bins digunakan untuk menentukan jumlah klasifikasi data atau jumlah pengelompokkan data.
+#Nilai alpha digunakan untuk mengatur transparansi.
+#Kita dapat menyertakan teks dalam plotting dengan menggunakan fungsi plt.text() . Terdiri dari 3 parameter. 2 parameter pertama dalam fungsi plt.text() ini, 
+merepresentasikan koordinat atau posisi dimana teksnya akan di tempatkan. Sedangkan untuk parameter ketiga ini merepresentasikan nilai string yang 
+akan kita tampilkan.
+#Jika pendekatan yang kita gunakan adalah OO Style, setidaknya kita harus menyediakan setidaknya 2 variabel untuk menampung objek figure dan objek axes. 
+Objek figure dan axes ini dihasilkan dari pemanggilan plt.subplots() . Lalu kita baru melakukan plotting pada axesnya. 
+#Kita dapat menyertakan teks dalam plotting dengan menggunakan fungsi ax.text() yang terdiri dari 3 parameter. 2 parameter pertama dalam fungsi ax.text() ini, 
+merepresentasikan koordinat atau posisi dimana teksnya akan di tempatkan. Sedangkan untuk parameter ketiga ini merepresentasikan nilai string yang 
+akan kita tampilkan.
+

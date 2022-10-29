@@ -1,0 +1,10 @@
+
+#Pemanggilan magic comment %matplotlib notebook memungkinkan kita untuk melakukan interaksi dengan objek figure dan axes.
+#Contour Plot merupakan visualisasi data yang bisa kita gunakan untuk memvisualisasikan data tiga dimensi kedalam format dua dimensi.
+#ColourBar menginterpretasikan menginterpretasikan setiap warna yang ada pada plotting dalam bentuk numerik atau bentuk angka.
+#Contour Plot cukup umum ditemui sewaktu kita berinteraksi dengan data geospasial atau seringkali dikenal dengan istilah geospasial data.
+#Perbedaan Filled Contour Plot dengan Contour Plot adalah jika Contour Plot, hanya menampilkan garisnya saja untuk memenuhi areanya. Sedangkan pada Filled Contour
+Plot, akan memenuhi areanya dengan warna. 
+#Fungsi Surface Plot ini digunakan untuk membentuk 3D Surface Plot.
+
+
